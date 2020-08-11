@@ -1,24 +1,22 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class SimpleSlider extends Component {
+export default class SectionCarousel extends Component {
     render() {
-        const settings = {
-            dots: false,
-            autoplay: true,
-            adaptiveHeight: true,
-            infinite: true,
-            speed: 1500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplaySpeed: 4000,
-            centerMode: true,
+        const settings =  {
             fade: true,
-
+            autoplay: true,
+            autoplaySpeed: 2000,
+            className: "center",
+            centerMode: true,
+            infinite: true,
+            centerPadding: "60px",
+            slidesToShow: 1,
+            speed: 2000
         };
         return (
             <div>
-                <Slider {...settings}>
+                <Slider  {...settings}>
                     <div>
                         <img src="/images/slide1.png" alt="slide1"/>
                     </div>

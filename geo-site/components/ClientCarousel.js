@@ -9,13 +9,12 @@ export default class ClientCarousel extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 2000,
-            autoplaySpeed: 2000,
+            speed: 6000,
             cssEase: "linear"
         };
         return (
             <div>
-                <Slider {...settings}>
+                <Slider  {...settings}>
                     <div>
                         <img src="/images/clientLogo/gasprom_0.png" alt="slide1"/>
                     </div>
