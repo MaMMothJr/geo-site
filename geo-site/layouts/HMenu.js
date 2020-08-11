@@ -1,21 +1,22 @@
 import Link from "next/link";
 
+
 export default function HMenu({children}) {
     return (
         <>
         <header>
-            <img src="/logo.png" alt="LOGO" className="logo"/>
+            <img src="/images/logo.png" className="logo" alt="somelo"/>
             <div>
-                <p>mail</p>
-                <p>telephone</p>
+                <p>E-mail:info@georesurs.com.ru</p>
+                <p>+7 (863) 209-83-10</p>
             </div>
         </header>
         <nav>
             <Link href="/"><a >Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
-            <Link href="/contact"><a>Contact</a></Link>
-            <Link href="/manufacture"><a>Manufacture</a></Link>
-            <Link href="/products"><a>Products</a></Link>
+            <Link href="/about"><a>О Компании</a></Link>
+            <Link href="/products"><a>Продукция</a></Link>
+            <Link href="/manufacture"><a>Производство</a></Link>
+            <Link href="/contact"><a>Контакты</a></Link>
         </nav>
         <main>
             {children}
