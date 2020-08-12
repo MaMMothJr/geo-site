@@ -1,6 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
 html,
 body {
-  padding: 20px;
   height: 100%;
   width: 100%;
   background: rgb(174,235,238);
@@ -9,7 +13,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 header {
-  padding: 10px;
+  margin: auto;
+  height: 100px;
+  width: 1200px;
   display: flex;
   background: rgb(77,184,240);
   background: linear-gradient(90deg, rgba(77,184,240,1) 49%, rgba(62,29,253,1) 76%, rgba(102,69,252,1) 100%);
@@ -17,6 +23,9 @@ header {
   justify-content: space-between;
 }
 nav {
+  margin: auto;
+  width: 1200px;
+  height: 50px;
   display: flex;
   background: rgb(248,248,249);
   background: linear-gradient(0deg, rgba(248,248,249,1) 0%, rgba(51,197,199,0.9836309523809523) 97%, rgba(34,193,195,1) 98%);
@@ -24,7 +33,9 @@ nav {
   justify-content: space-around;
 }
 footer {
-  height: 200px;
+  margin: auto;
+  width: 1200px;
+  height: 100px;
   display: flex;
   background: rgb(34,193,195);
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(51,197,199,0.9836309523809523) 0%, rgba(248,248,249,1) 78%);
@@ -39,10 +50,7 @@ footer {
 h2 {
   text-align: center;
 }
-.carusel {
- height: 100%;
- width: 50%;
-}
+
 .mainProducts  {
   display: flex;
   align-items: center;
@@ -53,4 +61,10 @@ h2 {
 .mainProducts a {
   height: 100px;
   width: 100px;
+}
+
+main {
+  margin: auto;
+  width: 1200px;
+  height: 100%;
 }

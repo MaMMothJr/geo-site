@@ -5,14 +5,14 @@ export default class SectionCarousel extends Component {
     render() {
         const settings =  {
             fade: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            className: "center",
-            centerMode: true,
+            arrows: false,
+            dots: false,
             infinite: true,
-            centerPadding: "60px",
             slidesToShow: 1,
-            speed: 2000
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 3000,
+            cssEase: "linear"
         };
         return (
             <div>

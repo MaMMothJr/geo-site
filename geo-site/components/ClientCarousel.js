@@ -4,6 +4,7 @@ import Slider from "react-slick";
 export default class ClientCarousel extends Component {
     render() {
         const settings = {
+            arrows: false,
             dots: false,
             infinite: true,
             slidesToShow: 3,
