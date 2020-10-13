@@ -1,11 +1,10 @@
 import PMenu from "../../../layouts/PMenu";
 
-export default function Oil() {
+export default function Profile() {
     return(
         <PMenu>
-            <h2>
-                123423423
-            </h2>
+            <h1>ssssssssssssssssssssssssssssssdfs</h1>
+
         </PMenu>
     )
 }

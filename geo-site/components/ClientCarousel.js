@@ -28,12 +28,6 @@ export default class ClientCarousel extends Component {
                     <div>
                         <img src="/images/clientLogo/rosneft_0.png" alt="slide1"/>
                     </div>
-                    <div>
-                        <img src="/images/clientLogo/Russneft.png" alt="slide1"/>
-                    </div>
-                    <div>
-                        <img src="/images/clientLogo/ssk.png" alt="slide1"/>
-                    </div>
                 </Slider>
             </div>
         );

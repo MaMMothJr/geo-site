@@ -5,11 +5,11 @@ export default function PMenu({children}) {
     return (
         <HMenu>
         <nav>
-            <Link href="/products/oil"><a>Oil</a></Link>
-            <Link href="/products/coal"><a>Coal</a></Link>
-            <Link href="/products/papper"><a>Papper</a></Link>
-            <Link href="/products/water"><a>Water</a></Link>
-            <Link href="/products/atom"><a>Atom</a></Link>
+            <Link href="/products/screens"><a>Щелевые сита</a></Link>
+            <Link href="/products/filters"><a>Фильтры</a></Link>
+            <Link href="/products/baskets"><a>Щелевые корзины и цилиндры</a></Link>
+            <Link href="/products/special"><a>Специализированые изделия</a></Link>
+            <Link href="/products/profile"><a>Профиль</a></Link>
         </nav>
        <section>
            {children}

@@ -1,6 +1,6 @@
 import PMenu from "../../../layouts/PMenu";
 
-export default function Papper() {
+export default function Baskets() {
     return(
         <PMenu>
             <h2>

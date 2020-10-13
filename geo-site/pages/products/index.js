@@ -8,11 +8,11 @@ export default function Products() {
                     Products
             </h1>
             <nav>
-                <Link href="/products/oil"><a>Oil</a></Link>
-                <Link href="/products/coal"><a>Coal</a></Link>
-                <Link href="/products/papper"><a>Papper</a></Link>
-                <Link href="/products/water"><a>Water</a></Link>
-                <Link href="/products/atom"><a>Atom</a></Link>
+                <Link href="/products/screens"><a>Щелевые сита</a></Link>
+                <Link href="/products/filters"><a>Фильтр</a></Link>
+                <Link href="/products/baskets"><a>Корзины и цилиндры</a></Link>
+                <Link href="/products/special"><a>Кассеты и внутриние устройства реакторов</a></Link>
+                <Link href="/products/profile"><a>Профиль</a></Link>
             </nav>
         </HMenu>
     )
