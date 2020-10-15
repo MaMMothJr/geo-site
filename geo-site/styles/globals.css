@@ -70,3 +70,48 @@ main {
   width: 1200px;
   height: 100%;
 }
+
+/*<---------------------------------------- table -------------------------------->*/
+
+table {
+  width: auto;
+  height: auto;
+  border-collapse: collapse;
+  margin: 25px auto;
+
+}
+
+td {
+  padding: 5px 10px 5px 5px;
+  border: 1px solid black;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+caption {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+/*<---------------------------------------- table -------------------------------->*/
+
+.product_image {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 25px 75px;
+
+}
+/*.product_image_block {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*}*/
+.article_product {
+margin-top: 25px;
+margin-bottom: 25px;
+}
+footer p {
+  margin: 25px;
+}
