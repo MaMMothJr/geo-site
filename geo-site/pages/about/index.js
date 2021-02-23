@@ -3,21 +3,33 @@ import HMenu from "../../layouts/HMenu";
 export default function About() {
     return  (
         <HMenu>
-            <h1>
-                About
-            </h1>
-            <section>
-                <img/>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit </p>
-            </section>
-            <section>
-                <img/>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit </p>
-            </section>
-            <section>
-                <img/>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit </p>
-            </section>
+            <h2>
+                О Компании
+            </h2>
+            <div className="sectionAbout">
+                <img src="/images/about/about1.jpg" className="about" alt="about"/>
+                <p>
+                    ООО «ГЕОРЕСУРС» (РФ, г. Ростов-на-Дону), является изготовителем щелевых изделий для нефтегазовой, уранодобывающей, горно-обогатительной и других отраслей. За более чем десятилетний опыт производства и поставок мы освоили выпуск различных видов фильтров для скважин, а также щелевые элементы сорбционных аппаратов, включая шпальтовые патроны, колпачки, тарелки, барабаны, цилиндры, а также все виды плоских и дуговых сит. Основным и наиболее перспективным направлением нашей деятельности является изготовление бескаркасных скважинных фильтров.
+                    Компания нацеленная на развитие технологических инновационных решений, постоянно совершенствуется в области производства продукции для скважин.
+                    Шагая в ногу со временем вместе с развитием новых технологий в своей области, ГЕОРЕСУРС  постоянно осуществляет модернизацию своих производственных   мощностей и укрепляет структуру своей организации.
+                </p>
+            </div>
+            <div className="sectionAbout">
+                <p>
+                    На производстве внедрена система менеджмента качества ISO 9001-2015. Постоянное и неизменное качество — это приоритет компании ГЕОРЕСУРС. Современные технологические линии для производства  щелевых фильтров, технологии перфорации, позволяют нам получать высококачественную продукцию, отвечающую необходимым стандартам.
+                    Высококвалифицированный персонал отдела технического контроля и специализированное оборудование гарантируют постоянную проверку качества продукции компании.
+                </p>
+                <img src="/images/about/iso.jpg" className="about" alt="iso"/>
+            </div>
+            <div className="sectionAbout">
+                <img src="/images/about/about.jpg" className="about" alt="about1"/>
+                <p>
+                    Успех компании не был бы возможным без участия, ответственности и профессионализма людей, занятых в нем. Наши сотрудники, независимо от занимаемой ими должности, полностью осознают правила работы компании.
+                    Так же, как профессионализм, важна атмосфера. Тот факт, что компания создает благоприятный климат для работы и сотрудничества, может быть подтверждена тем, что оборот среди работников находится на очень низком уровне. Мы создаем гармоничную, профессиональную команду, которая способствует достижению реального успеха.
+                    Наши конкурентные преимущества по отношению к другим поставщикам данной продукции — это индивидуальный подход к каждому из партнеров, разумная ценовая политика, широкий ассортимент продукции, необходимой для скважин.
+                    Наши менеджеры с радостью проконсультируют Вас.
+                </p>
+            </div>
         </HMenu>
    )
 }
