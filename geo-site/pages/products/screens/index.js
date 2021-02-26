@@ -6,8 +6,8 @@ export default function Screens() {
         <PMenu>
             <h2>Щелевые сита</h2>
             <nav className="nav_screens">
-                <Link href="/products/screens/arc"><a><img src="/images/product/screens/b.JPG" alt="oil" />Дуговые сита</a></Link>
-                <Link href="/products/screens/flat"><a><img src="/images/product/screens/a.jpg" alt="oil" />Плоские сита</a></Link>
+                <Link href="/products/screens/arc"><a><img src="/images/product/screens/0006.jpg" alt="oil" />Дуговые сита</a></Link>
+                <Link href="/products/screens/flat"><a><img src="/images/product/screens/0005.jpg" alt="oil" />Плоские сита</a></Link>
             </nav>
         </PMenu>
     )
