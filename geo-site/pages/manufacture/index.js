@@ -3,21 +3,30 @@ import HMenu from "../../layouts/HMenu";
 export default function Manufacture() {
     return  (
         <HMenu>
-            <h1>
-                Proizvodstvo
-            </h1>
-           <section>
-               <img/>
-               <p> </p>
-           </section>
-            <section>
-                <img/>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit </p>
-            </section>
-            <section>
-                <img/>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit </p>
-            </section>
+            <h2>
+                Производство
+            </h2>
+            <div className="sectionAbout">
+                <img src="/images/about/about1.jpg" className="about" alt="about"/>
+                <p>
+                    ООО "ГЕОРЕСУРС" обладает общирным парком промышленных станков позволяющим изготавливать фльтроэлементы длинной до 10 м и максимальным диаметром 600 мм.
+                </p>
+            </div>
+            <div className="sectionAbout">
+                <p>
+                    Так же технические возможности ООО "ГЕОРЕСУРС" позволяют оказывать услуги в плазменной резке, перфорации
+                </p>
+                <img src="/images/about/iso.jpg" className="about" alt="iso"/>
+            </div>
+            <div className="sectionAbout">
+                <img src="/images/about/about.jpg" className="about" alt="about1"/>
+                <p>
+                    Успех компании не был бы возможным без участия, ответственности и профессионализма людей, занятых в нем. Наши сотрудники, независимо от занимаемой ими должности, полностью осознают правила работы компании.
+                    Так же, как профессионализм, важна атмосфера. Тот факт, что компания создает благоприятный климат для работы и сотрудничества, может быть подтверждена тем, что оборот среди работников находится на очень низком уровне. Мы создаем гармоничную, профессиональную команду, которая способствует достижению реального успеха.
+                    Наши конкурентные преимущества по отношению к другим поставщикам данной продукции — это индивидуальный подход к каждому из партнеров, разумная ценовая политика, широкий ассортимент продукции, необходимой для скважин.
+                    Наши менеджеры с радостью проконсультируют Вас.
+                </p>
+            </div>
         </HMenu>
     )
 }

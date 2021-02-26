@@ -12,7 +12,7 @@ export default function HMenu({children}) {
             </div>
         </header>
         <nav>
-            <Link href="/"><a><img src="/images/logoHome.jpg" className="domik" alt="domik"/></a></Link>
+            <Link href="/"><a>Главная</a></Link>
             <Link href="/about"><a>О Компании</a></Link>
             <Link href="/products"><a>Продукция</a></Link>
             <Link href="/manufacture"><a>Производство</a></Link>
