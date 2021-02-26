@@ -129,7 +129,7 @@ caption {
   font-size: 18px;
   text-align: center;
 }
-/*<---------------------------------------- table -------------------------------->*/
+/*<---------------------------------------- product -------------------------------->*/
 
 .product_image {
   max-width: 500px;
@@ -157,6 +157,7 @@ footer p {
 .nav_filters a {
   width: 500px;
   height: 175px;
+  margin-bottom: 10px;
 
 }
 .nav_filters img {
@@ -206,5 +207,27 @@ footer p {
 }
 .img_reactor_last {
   margin-left:300px;
+  margin-bottom: 50px;
+}
+
+/*----------------------------manufacture------------------------------*/
+.sectionManufa {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.sectionManufa img:nth-child(1){
+  width: 300px;
+  height: 200px;
+}
+.manufahard {
+  width: 150px;
+  height: 250px;
+}
+.sectionManufa p{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-bottom: 50px;
 }
