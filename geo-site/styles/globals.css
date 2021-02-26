@@ -69,6 +69,7 @@ h3 {
   text-align: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 .mainProducts a {
   margin-left: 25px;
@@ -186,6 +187,24 @@ footer p {
   width: 50%;
 }
 .nav_screens img {
-  height: 150px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
+}
+/*-------------------------------reactor------------------------------------*/
+.img_reactor {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.text_reactor {
+  margin-left:500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.img_reactor_last {
+  margin-left:300px;
+  margin-bottom: 50px;
 }
